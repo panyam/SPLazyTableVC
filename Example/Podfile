@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SPLazyTableVC_Example' do
+  pod 'SPLazyTableVC', :path => '../'
+
+  target 'SPLazyTableVC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
