@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0177021704957DBB4B6A63225A487679 /* SPLazyTableVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABAA0CE26AFE86CB4CD36930B940B144 /* SPLazyTableVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1971C7DD90673EF2A27CC1EF24C9ED90 /* SPLazyTableVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55E3DC9E230832612C0C2540A15F28D /* SPLazyTableVC-dummy.m */; };
+		1BFB5C65D6FF02116ED55B67211946DA /* Pods-SPLazyTableVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FEA39A8EFBE34FD341D24D2B96D879 /* Pods-SPLazyTableVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F251FE0E57A9503468AEDC90DD65C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		364A802EC4F2CDCEEA719EE958B51828 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5941B0D2E0434A7D37964FFF6A9FA25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6E6079305663A24F7030E89914426E5E /* Pods-SPLazyTableVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 983851731051A5AAB2F7124628478C36 /* Pods-SPLazyTableVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D87DD03E386A598804F30FBF9CFA1E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 977A962A80D553AC119CE39C4CC212B3 /* ReplaceMe.m */; };
+		B94452472A58AA6DBBAC0CDEF1ED69CC /* Pods-SPLazyTableVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BBD86C32B254A8D4A95DE31DAB1A5C /* Pods-SPLazyTableVC_Tests-dummy.m */; };
+		CFDFAAE0113E7DBAA2CF395D04394879 /* Pods-SPLazyTableVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFD8AF411455AC0F3A553CB33FA4137 /* Pods-SPLazyTableVC_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54DD898244C36D400ACE4E892CEF8F11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4355E5C39FA1670CF796F785185F0C9;
+			remoteInfo = SPLazyTableVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B9A71D91ED4ECC804231D8EDB4F04 /* Pods-SPLazyTableVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPLazyTableVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DEF298AE2A9B75DB0EA00BBBD28F543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11C0C5F9938D1397A3518477ADBBFAFC /* Pods-SPLazyTableVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SPLazyTableVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E497930D7620592AC56BB4BA6FE3AF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360E3F529A24221196848234C69074BA /* Pods-SPLazyTableVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SPLazyTableVC_Example.modulemap"; sourceTree = "<group>"; };
+		37CBC6A5D5CE9A46995135CD69A597CE /* Pods-SPLazyTableVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPLazyTableVC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3C0A223CA14AA43747E4B0BDE4D59CE6 /* Pods-SPLazyTableVC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPLazyTableVC_Example-resources.sh"; sourceTree = "<group>"; };
+		4678A672A2F08C7D3D57D883C6F579E2 /* Pods-SPLazyTableVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SPLazyTableVC_Tests.modulemap"; sourceTree = "<group>"; };
+		4739363DC556499C5D7C9F4DC9447245 /* Pods-SPLazyTableVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPLazyTableVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4C2F73C8B42A4851DD5C84A9DD333DFF /* Pods-SPLazyTableVC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPLazyTableVC_Tests-resources.sh"; sourceTree = "<group>"; };
+		4DFD8AF411455AC0F3A553CB33FA4137 /* Pods-SPLazyTableVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPLazyTableVC_Example-dummy.m"; sourceTree = "<group>"; };
+		7428D99A478DF9AF9D56ABD91B6F68FC /* Pods_SPLazyTableVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPLazyTableVC_Tests.framework; path = "Pods-SPLazyTableVC_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA0B28DD68CEA1AD35A6FD5B2D9B9E5 /* Pods-SPLazyTableVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPLazyTableVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977A962A80D553AC119CE39C4CC212B3 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		983851731051A5AAB2F7124628478C36 /* Pods-SPLazyTableVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPLazyTableVC_Example-umbrella.h"; sourceTree = "<group>"; };
+		98FFDF1AC170C9AEF3B403828A5A25CB /* Pods-SPLazyTableVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPLazyTableVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F70D8C98B8BAA2193E220961A14B654 /* SPLazyTableVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPLazyTableVC.xcconfig; sourceTree = "<group>"; };
+		A5BBD86C32B254A8D4A95DE31DAB1A5C /* Pods-SPLazyTableVC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SPLazyTableVC_Tests-dummy.m"; sourceTree = "<group>"; };
+		ABAA0CE26AFE86CB4CD36930B940B144 /* SPLazyTableVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPLazyTableVC-umbrella.h"; sourceTree = "<group>"; };
+		AED0A3D8506B62E50681B168E3BEC9F9 /* SPLazyTableVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SPLazyTableVC.framework; path = SPLazyTableVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF90066BF7CEFBED51FBBE5D98BCA892 /* SPLazyTableVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPLazyTableVC-prefix.pch"; sourceTree = "<group>"; };
+		B55E3DC9E230832612C0C2540A15F28D /* SPLazyTableVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPLazyTableVC-dummy.m"; sourceTree = "<group>"; };
+		C3BD54020CD6576EE6167217936548F1 /* Pods-SPLazyTableVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPLazyTableVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4FEA39A8EFBE34FD341D24D2B96D879 /* Pods-SPLazyTableVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SPLazyTableVC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C802F5ACE2E76331A5B24EFA49DEE91F /* SPLazyTableVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SPLazyTableVC.modulemap; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D490180B772FAE5C3E10260FD2798E60 /* Pods_SPLazyTableVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SPLazyTableVC_Example.framework; path = "Pods-SPLazyTableVC_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4948EFF2B2EF61FD788ABE6B457FF6A /* Pods-SPLazyTableVC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SPLazyTableVC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEEBBE338BF7325933ABFDC6CA9BF1A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E3F79DFC7F52359B0D949924983C84 /* Pods-SPLazyTableVC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SPLazyTableVC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EAF0BB6FA3BFA371AB1B07928B8F5979 /* Pods-SPLazyTableVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SPLazyTableVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EA0F88D34C98386B8FFBBCF581C715B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5941B0D2E0434A7D37964FFF6A9FA25B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48067BB23F18CF6BFB91FCF4D20417D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F251FE0E57A9503468AEDC90DD65C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2662621CF3777CCDA453F84420ADF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364A802EC4F2CDCEEA719EE958B51828 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D3AD2CC609FC2653FB30888A74E68F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D490180B772FAE5C3E10260FD2798E60 /* Pods_SPLazyTableVC_Example.framework */,
+				7428D99A478DF9AF9D56ABD91B6F68FC /* Pods_SPLazyTableVC_Tests.framework */,
+				AED0A3D8506B62E50681B168E3BEC9F9 /* SPLazyTableVC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		464623913A8DBE03B307E570B95D276F /* Pods-SPLazyTableVC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E497930D7620592AC56BB4BA6FE3AF9 /* Info.plist */,
+				4678A672A2F08C7D3D57D883C6F579E2 /* Pods-SPLazyTableVC_Tests.modulemap */,
+				11C0C5F9938D1397A3518477ADBBFAFC /* Pods-SPLazyTableVC_Tests-acknowledgements.markdown */,
+				98FFDF1AC170C9AEF3B403828A5A25CB /* Pods-SPLazyTableVC_Tests-acknowledgements.plist */,
+				A5BBD86C32B254A8D4A95DE31DAB1A5C /* Pods-SPLazyTableVC_Tests-dummy.m */,
+				EAF0BB6FA3BFA371AB1B07928B8F5979 /* Pods-SPLazyTableVC_Tests-frameworks.sh */,
+				4C2F73C8B42A4851DD5C84A9DD333DFF /* Pods-SPLazyTableVC_Tests-resources.sh */,
+				C4FEA39A8EFBE34FD341D24D2B96D879 /* Pods-SPLazyTableVC_Tests-umbrella.h */,
+				C3BD54020CD6576EE6167217936548F1 /* Pods-SPLazyTableVC_Tests.debug.xcconfig */,
+				8CA0B28DD68CEA1AD35A6FD5B2D9B9E5 /* Pods-SPLazyTableVC_Tests.release.xcconfig */,
+			);
+			name = "Pods-SPLazyTableVC_Tests";
+			path = "Target Support Files/Pods-SPLazyTableVC_Tests";
+			sourceTree = "<group>";
+		};
+		4BF4929F0262F4BBB665289B17A311FD /* Pods-SPLazyTableVC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0DEF298AE2A9B75DB0EA00BBBD28F543 /* Info.plist */,
+				360E3F529A24221196848234C69074BA /* Pods-SPLazyTableVC_Example.modulemap */,
+				002B9A71D91ED4ECC804231D8EDB4F04 /* Pods-SPLazyTableVC_Example-acknowledgements.markdown */,
+				D4948EFF2B2EF61FD788ABE6B457FF6A /* Pods-SPLazyTableVC_Example-acknowledgements.plist */,
+				4DFD8AF411455AC0F3A553CB33FA4137 /* Pods-SPLazyTableVC_Example-dummy.m */,
+				37CBC6A5D5CE9A46995135CD69A597CE /* Pods-SPLazyTableVC_Example-frameworks.sh */,
+				3C0A223CA14AA43747E4B0BDE4D59CE6 /* Pods-SPLazyTableVC_Example-resources.sh */,
+				983851731051A5AAB2F7124628478C36 /* Pods-SPLazyTableVC_Example-umbrella.h */,
+				4739363DC556499C5D7C9F4DC9447245 /* Pods-SPLazyTableVC_Example.debug.xcconfig */,
+				E2E3F79DFC7F52359B0D949924983C84 /* Pods-SPLazyTableVC_Example.release.xcconfig */,
+			);
+			name = "Pods-SPLazyTableVC_Example";
+			path = "Target Support Files/Pods-SPLazyTableVC_Example";
+			sourceTree = "<group>";
+		};
+		4C204BC6A1B25CDD5BCA45470EF1CB7C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75DEAE391DC642110ED80B72418A0E62 /* SPLazyTableVC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		75DEAE391DC642110ED80B72418A0E62 /* SPLazyTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				C1B790C6F32078A92340E1F57BE26839 /* SPLazyTableVC */,
+				C514A2D56C3A69DBB9E328572BC28128 /* Support Files */,
+			);
+			name = SPLazyTableVC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4C204BC6A1B25CDD5BCA45470EF1CB7C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0D3AD2CC609FC2653FB30888A74E68F5 /* Products */,
+				A7D34F98F57F959CEED2A47F8D28394A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D34F98F57F959CEED2A47F8D28394A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BF4929F0262F4BBB665289B17A311FD /* Pods-SPLazyTableVC_Example */,
+				464623913A8DBE03B307E570B95D276F /* Pods-SPLazyTableVC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1B790C6F32078A92340E1F57BE26839 /* SPLazyTableVC */ = {
+			isa = PBXGroup;
+			children = (
+				E64E128A278D314DBAC3267A057B5D63 /* Classes */,
+			);
+			name = SPLazyTableVC;
+			path = SPLazyTableVC;
+			sourceTree = "<group>";
+		};
+		C514A2D56C3A69DBB9E328572BC28128 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEBBE338BF7325933ABFDC6CA9BF1A5 /* Info.plist */,
+				C802F5ACE2E76331A5B24EFA49DEE91F /* SPLazyTableVC.modulemap */,
+				9F70D8C98B8BAA2193E220961A14B654 /* SPLazyTableVC.xcconfig */,
+				B55E3DC9E230832612C0C2540A15F28D /* SPLazyTableVC-dummy.m */,
+				AF90066BF7CEFBED51FBBE5D98BCA892 /* SPLazyTableVC-prefix.pch */,
+				ABAA0CE26AFE86CB4CD36930B940B144 /* SPLazyTableVC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SPLazyTableVC";
+			sourceTree = "<group>";
+		};
+		E64E128A278D314DBAC3267A057B5D63 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				977A962A80D553AC119CE39C4CC212B3 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AB0BA1A4312C9CA6140AB5AB78583BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BFB5C65D6FF02116ED55B67211946DA /* Pods-SPLazyTableVC_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAE8A2E376CEDEF9ED4D033D5C82FE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6079305663A24F7030E89914426E5E /* Pods-SPLazyTableVC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF2070B38EADD7325FF3D6E4E6F3A9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0177021704957DBB4B6A63225A487679 /* SPLazyTableVC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00EED16D3C226B097F41B93AC473A695 /* Pods-SPLazyTableVC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8005160EEE5750FC9E5DF515BF328B58 /* Build configuration list for PBXNativeTarget "Pods-SPLazyTableVC_Tests" */;
+			buildPhases = (
+				EA53405852BD33180CF9BBD05DB17EF8 /* Sources */,
+				48067BB23F18CF6BFB91FCF4D20417D7 /* Frameworks */,
+				4AB0BA1A4312C9CA6140AB5AB78583BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SPLazyTableVC_Tests";
+			productName = "Pods-SPLazyTableVC_Tests";
+			productReference = 7428D99A478DF9AF9D56ABD91B6F68FC /* Pods_SPLazyTableVC_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D076135FF10FFEB54D8F021486C2EEB2 /* Pods-SPLazyTableVC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8362E1A41DE150681C33935E7FD47263 /* Build configuration list for PBXNativeTarget "Pods-SPLazyTableVC_Example" */;
+			buildPhases = (
+				DFCD36B9B98D5BB2055E371350246773 /* Sources */,
+				1EA0F88D34C98386B8FFBBCF581C715B /* Frameworks */,
+				CEAE8A2E376CEDEF9ED4D033D5C82FE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B7A876EED5C2BA38E567198EEDFB57E /* PBXTargetDependency */,
+			);
+			name = "Pods-SPLazyTableVC_Example";
+			productName = "Pods-SPLazyTableVC_Example";
+			productReference = D490180B772FAE5C3E10260FD2798E60 /* Pods_SPLazyTableVC_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4355E5C39FA1670CF796F785185F0C9 /* SPLazyTableVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3B5DC05AF711EAEFF64F2E6E3BA1A1 /* Build configuration list for PBXNativeTarget "SPLazyTableVC" */;
+			buildPhases = (
+				2CC612C2A5CD9F8893B733C4392880C9 /* Sources */,
+				9F2662621CF3777CCDA453F84420ADF6 /* Frameworks */,
+				DFF2070B38EADD7325FF3D6E4E6F3A9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPLazyTableVC;
+			productName = SPLazyTableVC;
+			productReference = AED0A3D8506B62E50681B168E3BEC9F9 /* SPLazyTableVC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D3AD2CC609FC2653FB30888A74E68F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D076135FF10FFEB54D8F021486C2EEB2 /* Pods-SPLazyTableVC_Example */,
+				00EED16D3C226B097F41B93AC473A695 /* Pods-SPLazyTableVC_Tests */,
+				F4355E5C39FA1670CF796F785185F0C9 /* SPLazyTableVC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC612C2A5CD9F8893B733C4392880C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D87DD03E386A598804F30FBF9CFA1E /* ReplaceMe.m in Sources */,
+				1971C7DD90673EF2A27CC1EF24C9ED90 /* SPLazyTableVC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFCD36B9B98D5BB2055E371350246773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDFAAE0113E7DBAA2CF395D04394879 /* Pods-SPLazyTableVC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA53405852BD33180CF9BBD05DB17EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94452472A58AA6DBBAC0CDEF1ED69CC /* Pods-SPLazyTableVC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B7A876EED5C2BA38E567198EEDFB57E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SPLazyTableVC;
+			target = F4355E5C39FA1670CF796F785185F0C9 /* SPLazyTableVC */;
+			targetProxy = 54DD898244C36D400ACE4E892CEF8F11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D8F587E87583D13C8C0948C56733F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F70D8C98B8BAA2193E220961A14B654 /* SPLazyTableVC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPLazyTableVC/SPLazyTableVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPLazyTableVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPLazyTableVC/SPLazyTableVC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SPLazyTableVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80F331C571AB7FB04D898A449B7CBD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4739363DC556499C5D7C9F4DC9447245 /* Pods-SPLazyTableVC_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPLazyTableVC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPLazyTableVC_Example/Pods-SPLazyTableVC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPLazyTableVC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC8F002D2BE7F65C9A990623DA3F65CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BD54020CD6576EE6167217936548F1 /* Pods-SPLazyTableVC_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPLazyTableVC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPLazyTableVC_Tests/Pods-SPLazyTableVC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPLazyTableVC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C876E92406E95BFB7FC075E10BFBB152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E3F79DFC7F52359B0D949924983C84 /* Pods-SPLazyTableVC_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPLazyTableVC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPLazyTableVC_Example/Pods-SPLazyTableVC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPLazyTableVC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0AB10821879987A28931583F50C9977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F70D8C98B8BAA2193E220961A14B654 /* SPLazyTableVC.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SPLazyTableVC/SPLazyTableVC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SPLazyTableVC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SPLazyTableVC/SPLazyTableVC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SPLazyTableVC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF3192A8EE2B459F9EACAD45B34A7661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA0B28DD68CEA1AD35A6FD5B2D9B9E5 /* Pods-SPLazyTableVC_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SPLazyTableVC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SPLazyTableVC_Tests/Pods-SPLazyTableVC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SPLazyTableVC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3B5DC05AF711EAEFF64F2E6E3BA1A1 /* Build configuration list for PBXNativeTarget "SPLazyTableVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0AB10821879987A28931583F50C9977 /* Debug */,
+				5D8F587E87583D13C8C0948C56733F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8005160EEE5750FC9E5DF515BF328B58 /* Build configuration list for PBXNativeTarget "Pods-SPLazyTableVC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8F002D2BE7F65C9A990623DA3F65CF /* Debug */,
+				FF3192A8EE2B459F9EACAD45B34A7661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8362E1A41DE150681C33935E7FD47263 /* Build configuration list for PBXNativeTarget "Pods-SPLazyTableVC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F331C571AB7FB04D898A449B7CBD37 /* Debug */,
+				C876E92406E95BFB7FC075E10BFBB152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

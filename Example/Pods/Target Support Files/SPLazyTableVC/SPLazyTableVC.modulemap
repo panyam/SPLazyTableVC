@@ -1,0 +1,6 @@
+framework module SPLazyTableVC {
+  umbrella header "SPLazyTableVC-umbrella.h"
+
+  export *
+  module * { export * }
+}

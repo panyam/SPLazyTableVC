@@ -1,0 +1,22 @@
+{
+  "name": "SPLazyTableVC",
+  "version": "0.1.0",
+  "summary": "A short description of SPLazyTableVC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/SPLazyTableVC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sriram Panyam": "sri.panyam@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/SPLazyTableVC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SPLazyTableVC/Classes/**/*"
+}
